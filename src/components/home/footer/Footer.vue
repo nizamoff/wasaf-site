@@ -4,7 +4,7 @@
       <div class="footer__top flex justify-between">
         <div class="footer__left">
           <a class="footer__logo color-blue fz-32 fw-600 mb-2 block" href="#"
-            >Wafas</a
+            >Wasaf</a
           >
           <p class="footer__slogan w-20">
             We create powerful and usable digital products
