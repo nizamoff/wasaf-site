@@ -1,6 +1,6 @@
 <template>
   <header id="header" class="header pt-3 pb-3">
-    <div class="container flex justify-between align-center">
+    <div class="header__inner container flex justify-between align-center">
       <a href="/" class="header__left fw-700 fz-32">Wasaf</a>
       <nav class="header__right">
         <ul class="header__list flex align-center">
@@ -33,18 +33,58 @@
           </li>
         </ul>
       </nav>
-      <button class="header__burgers">
+      <button @click="open = true" class="header__burgers">
         <span class="header__burger block"></span>
         <span class="header__burger block"></span>
         <span class="header__burger block"></span>
       </button>
+      <div class="mobile-menu" @click="open = false" v-if="open">
+        <div class="mobile-menu__wrapper">
+          <div @click="open = false">
+            <CrossIcon />
+          </div>
+          <router-link
+            to="/"
+            @click="open = false"
+            class="mobile-menu__item block color-white fz-36 pb-2 pt-5 mb-2"
+            >HOME</router-link
+          >
+          <router-link
+            to="/blog"
+            @click="open = false"
+            class="mobile-menu__item block color-white fz-36 pb-2 mb-2"
+            >BLOG</router-link
+          >
+          <router-link
+            to="/portfolio"
+            @click="open = false"
+            class="mobile-menu__item block color-white fz-36 pb-2 mb-2"
+            >PORTFOLIO</router-link
+          >
+          <router-link
+            to="/vacancies"
+            @click="open = false"
+            class="mobile-menu__item block color-white fz-36 pb-2 mb-2"
+            >VACANCIES</router-link
+          >
+        </div>
+      </div>
     </div>
   </header>
 </template>
 
 <script>
+import CrossIcon from "../../svgs/CrossIcon.vue";
 export default {
   name: "Header",
+  data() {
+    return {
+      open: false,
+    };
+  },
+  components: {
+    CrossIcon,
+  },
 };
 </script>
 
@@ -60,7 +100,7 @@ export default {
   background-color: rgba(13, 12, 14, 0.609);
   backdrop-filter: blur(25px);
   z-index: 99999;
-  @media screen and(max-width: 1720px){
+  @media screen and(max-width: 1720px) {
     padding-top: 22px;
     padding-bottom: 22px;
   }
@@ -76,7 +116,7 @@ export default {
     color: $main_white;
   }
   &__item {
-    @media screen and(max-width: 1720px){
+    @media screen and(max-width: 1720px) {
       padding: 6px 14px;
       &:last-child {
         padding: 6px 0px 6px 14px;
@@ -85,12 +125,14 @@ export default {
   }
   &__item-btn {
     border: 1px solid $main_white;
-    @media screen and(max-width: 1720px){
+    @media screen and(max-width: 1720px) {
       padding: 6px 22px;
     }
   }
   .router-link-exact-active {
-    border-bottom: 1px solid $main_white;
+    border-bottom: 1px solid $main_blue;
+    color: $main_blue;
+    width: 100%;
   }
   &__burgers {
     background: transparent;
@@ -107,10 +149,39 @@ export default {
       margin-bottom: 5px;
     }
   }
-  .header__mobile__list {
+  .mobile-menu {
     display: none;
-    &.open {
-      display: block;
+    @media screen and(max-width: 700px) {
+      display: flex;
+    }
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh !important;
+    padding: 10px 20px;
+    top: 450px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(13, 12, 14, 0.904);
+    z-index: 99999;
+    border-radius: 8px;
+    svg {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    &__wrapper {
+      background-color: #202020c7;
+      backdrop-filter: blur(10px);
+      padding: 10px;
+      width: 80%;
+      height: 500px;
+      border-radius: 8px;
     }
   }
 }

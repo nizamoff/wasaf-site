@@ -7,14 +7,13 @@ export default {
     components: {
         Header,
         Footer,
-        Socials
+        Socials,
     }
 }
 </script>
 
 <template>
   <Header />
-
   <router-view></router-view>
   <Socials/>
   <Footer />

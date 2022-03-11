@@ -122,6 +122,14 @@ export default {};
   }
   &__form__left {
     background: rgba(255, 255, 255, 0.1);
+    @media screen and(max-width: 910px){
+      display: none;
+    }
+  }
+  &__form__right {
+    @media screen and(max-width: 910px){
+      width: 100%;
+    }
   }
 }
 </style>
