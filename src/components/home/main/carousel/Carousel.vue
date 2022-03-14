@@ -7,7 +7,7 @@
           For your very specific industry, we have highly-tailored IT solutions.
         </p>
       </div>
-        <a href="/" class="carousel__link fz-20 flex align-center">Explore all <right-arrow-icon/> </a>
+        <router-link to="/portfolio"  class="carousel__link fz-20 flex align-center">Explore all <right-arrow-icon/> </router-link>
     </div>
     <carousel :items-to-show="5">
       <slide v-for="slide in slides" :key="slide">

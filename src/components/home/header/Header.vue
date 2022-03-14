@@ -124,10 +124,10 @@ export default {
     }
   }
   &__item-btn {
-    border: 1px solid $main_white;
-    @media screen and(max-width: 1720px) {
-      padding: 6px 22px;
-    }
+      border: 1px solid $main_white;
+      @media screen and(max-width: 1720px) {
+        padding: 6px 22px;
+      }
   }
   .router-link-exact-active {
     color: $main_blue;
