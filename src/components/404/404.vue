@@ -1,6 +1,6 @@
 <template>
   <div class="error-page pt-15 container">
-    <div class="m-auto w-45 ">
+    <div class="flex justify-center align-center">
       <NotFoundIcon />
     </div>
     <h2 class="fz-40 text-center mb-05 mt-3">

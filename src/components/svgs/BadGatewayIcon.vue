@@ -470,8 +470,16 @@
   </svg>
 </template>
 
-<script>
-export default {};
-</script>
-
-<style></style>
+<style lang="scss" scoped>
+svg {
+  width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and(max-width: 1720px){
+    width: 360px;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+</style>

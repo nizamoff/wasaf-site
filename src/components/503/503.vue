@@ -1,6 +1,6 @@
 <template>
   <div class="unaviable-page container pt-15">
-    <div class="m-auto w-45">
+    <div class="flex justify-center align-center">
       <UnaviableIcon />
     </div>
     <h2 class="fz-40 text-center mb-05 mt-3">Service Unavailable</h2>

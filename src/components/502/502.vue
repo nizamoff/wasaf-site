@@ -1,6 +1,6 @@
 <template>
   <div class="bad-gateway container pt-15">
-    <div class="m-auto w-30">
+    <div class="flex justify-center align-center">
       <BadGatewayIcon />
     </div>
     <h2 class="fz-40 text-center mb-05 mt-3">Bad Gateway</h2>

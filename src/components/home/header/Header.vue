@@ -24,13 +24,13 @@
               >Vacancies</router-link
             >
           </li>
-          <li class="header__item pl-2">
+          <!-- <li class="header__item pl-2">
             <a
               class="header__item-btn header__link fz-18 fw-500 pr-3 pl-3 pt-1 pb-1 br-8"
               href="#"
               >Contact us</a
             >
-          </li>
+          </li> -->
         </ul>
       </nav>
       <button @click="open = true" class="header__burgers">
@@ -130,7 +130,6 @@ export default {
     }
   }
   .router-link-exact-active {
-    border-bottom: 1px solid $main_blue;
     color: $main_blue;
     width: 100%;
   }
