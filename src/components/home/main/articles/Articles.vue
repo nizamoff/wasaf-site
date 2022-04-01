@@ -2,7 +2,7 @@
   <section class="articles container mb-15">
     <div class="flex justify-between mb-3 align-bottom">
       <h4 class="articles__title fw-600 fz-40">Our latest articles</h4>
-      <router-link class="fz-20 color-white" to="/blog">Read more</router-link>
+      <router-link class="fz-20 color-white" to="">Read more</router-link>
     </div>
     <ul class="articles__list flex justify-between">
       <li class="articles__item">
@@ -13,7 +13,7 @@
           alt=""
         />
         <div class="layer">
-          <router-link to="/blog" class="block color-white fz-16">Read more</router-link>
+          <router-link to="" class="block color-white fz-16">Read more</router-link>
         </div>
       </li>
       <li class="articles__item">
@@ -24,7 +24,7 @@
           alt=""
         />
         <div class="layer">
-          <router-link to="/blog" class="block color-white fz-16">Read more</router-link>
+          <router-link to="" class="block color-white fz-16">Read more</router-link>
         </div>
       </li>
       <li class="articles__item">
@@ -35,7 +35,7 @@
           alt=""
         />
         <div class="layer">
-          <router-link to="/blog" class="block color-white fz-16">Read more</router-link>
+          <router-link to="" class="block color-white fz-16">Read more</router-link>
         </div>
       </li>
       <li class="articles__item">
@@ -46,7 +46,7 @@
           alt=""
         />
         <div class="layer">
-          <router-link to="/blog" class="block color-white fz-16">Read more</router-link>
+          <router-link to="" class="block color-white fz-16">Read more</router-link>
         </div>
       </li>
     </ul>
@@ -95,7 +95,7 @@ export default {
       transform: scale(1.2);
     }
     .layer {
-      width: 100%;
+      width: 100%; 
       height: 100%;
       display: flex;
       justify-content: center;

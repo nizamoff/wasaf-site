@@ -8,17 +8,17 @@
         <div class="result__content">
           <div class="flex justify-center align-center pb-2">
             <span
-              class="results__number block fw-800 fz-96 mr-1"
+              class="results__number block fw-600 fz-96 mr-1"
               data-target="10"
             >
               0
             </span>
-            <span class="results__symbol block fw-800 fz-96"
+            <span class="results__symbol block fw-600 fz-96"
               >+</span
             >
           </div>
           <span
-            class="results__subtitle block fw-500 fz-32 text-center w-30"
+            class="results__subtitle block fw-400 fz-32 text-center w-30"
             >
             Years of experience
           </span>
@@ -33,17 +33,17 @@
         <div class="result__content">
           <div class="flex justify-center align-center pb-2">
             <span
-              class="results__number block fw-800 fz-96 mr-1"
+              class="results__number block fw-600 fz-96 mr-1"
               data-target="60"
             >
               0
             </span>
-            <span class="results__symbol block fw-800 fz-96"
+            <span class="results__symbol block fw-600 fz-96"
               >+</span
             >
           </div>
           <span
-            class="results__subtitle block fw-500 fz-32 text-center w-30"
+            class="results__subtitle block fw-400 fz-32 text-center w-30"
             >
             Employees
           </span>
@@ -58,17 +58,17 @@
         <div class="result__content">
           <div class="flex justify-center align-center pb-2">
             <span
-              class="results__number block fw-800 fz-96 mr-1"
+              class="results__number block fw-600 fz-96 mr-1"
               data-target="98"
             >
               0
             </span>
-            <span class="results__symbol block fw-800 fz-96"
+            <span class="results__symbol block fw-600 fz-96"
               >%</span
             >
           </div>
           <span
-            class="results__subtitle block fw-500 fz-32 text-center w-40"
+            class="results__subtitle block fw-400 fz-32 text-center w-40"
             >
             Hard core developers
           </span>
@@ -87,7 +87,7 @@
 window.addEventListener("scroll", function () {
   const couters = document.querySelectorAll(".results__number");
   const speed = 100;
-  if (this.pageYOffset >= 1400) {
+  if (this.pageYOffset >= 1300) {
     couters.forEach((counter) => {
       const updateCount = () => {
         const target = +counter.getAttribute("data-target");

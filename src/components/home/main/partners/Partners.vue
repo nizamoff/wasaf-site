@@ -1,5 +1,5 @@
 <template>
-  <section class="partners mb-15 container">
+  <section class="partners mb-15 container" id="portfolio">
     <h4 class="partners__title text-center fz-40 fw-600 mb-05">Partners</h4>
     <p class="partners__subtitle text-center fz-16 fw-300 lh-24 w-25 m-auto">
       For your very specific industry, we have highly-tailored IT solutions.

@@ -1297,9 +1297,6 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .el-collapse {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     --el-collapse-header-height: 60px !important;
     --el-collapse-border-color: transparent !important;
     @media screen and(max-width: 1080px) {
@@ -1316,9 +1313,9 @@ input[type="search"]::-webkit-search-results-decoration {
     --el-collapse-header-font-size: 16px !important;
     --el-collapse-border-color: transparent !important;
     @media screen and(max-width: 1720px){
-        width: 49% !important;
+        width: 550px !important;
     }
-    @media screen and(max-width: 1080px) {
+    @media screen and(max-width: 1140px) {
         width: 100% !important;
         margin-bottom: 20px !important;
     }

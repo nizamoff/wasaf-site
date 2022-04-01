@@ -4,36 +4,20 @@
       <a href="/" class="header__left fw-700 fz-32">Wasaf</a>
       <nav class="header__right">
         <ul class="header__list flex align-center">
-          <li class="header__item pr-2 pt-1 pl-2 pb-1">
+          <!-- <li class="header__item pr-2 pt-1 pl-2 pb-1">
             <router-link to="/" class="header__link fz-18 fw-500" href="#"
               >Home</router-link
             >
           </li>
           <li class="header__item pr-2 pl-2 pt-1 pb-1">
-            <router-link to="/portfolio" class="header__link fz-18 fw-500"
+            <router-link to="#portfolio" class="header__link fz-18 fw-500"
               >Portfolio</router-link
             >
-          </li>
-          <li class="header__item pr-2 pl-2 pt-1 pb-1">
-            <router-link class="header__link fz-18 fw-500" to="/blog"
-              >Blog</router-link
-            >
-          </li>
-          <li class="header__item pr-2 pl-2 pt-1 pb-1">
-            <router-link class="header__link fz-18 fw-500" to="/vacancies"
-              >Vacancies</router-link
-            >
-          </li>
-          <!-- <li class="header__item pl-2">
-            <a
-              class="header__item-btn header__link fz-18 fw-500 pr-3 pl-3 pt-1 pb-1 br-8"
-              href="#"
-              >Contact us</a
-            >
           </li> -->
+          
         </ul>
       </nav>
-      <button @click="open = true" class="header__burgers">
+      <!-- <button @click="open = true" class="header__burgers">
         <span class="header__burger block"></span>
         <span class="header__burger block"></span>
         <span class="header__burger block"></span>
@@ -68,13 +52,13 @@
             >VACANCIES</router-link
           >
         </div>
-      </div>
+      </div> -->
     </div>
   </header>
 </template>
 
 <script>
-import CrossIcon from "../../svgs/CrossIcon.vue";
+// import CrossIcon from "../../svgs/CrossIcon.vue";
 export default {
   name: "Header",
   data() {
@@ -82,9 +66,9 @@ export default {
       open: false,
     };
   },
-  components: {
-    CrossIcon,
-  },
+  // components: {
+  //   CrossIcon,
+  // },
 };
 </script>
 
