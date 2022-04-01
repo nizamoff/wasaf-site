@@ -38,14 +38,14 @@
       </el-collapse-item>
     </el-collapse>
     <el-collapse v-model="activeName" accordion>
-      <el-collapse-item title="How much does it cost to make an App?" name="7">
+      <el-collapse-item title="How much does it cost to make an App?" name="4">
         <div>
           Consistent with real life: in line with the process and logic of real
           life, and comply with languages and habits that the users are used to;
         </div>
         <div>
           Consistent within interface: all elements should be consistent, such
-          as: design style, icons and texts, position of elements, etc.
+          as: design style, icons and texts, position of elements, etc. 
         </div>
       </el-collapse-item>
       <el-collapse-item title="What is MVP?" name="5">

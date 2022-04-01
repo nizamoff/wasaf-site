@@ -3,8 +3,8 @@
     <div class="header__inner container flex justify-between align-center">
       <a href="/" class="header__left fw-700 fz-32">Wasaf</a>
       <nav class="header__right">
-        <ul class="header__list flex align-center">
-          <!-- <li class="header__item pr-2 pt-1 pl-2 pb-1">
+        <!-- <ul class="header__list flex align-center">
+          <li class="header__item pr-2 pt-1 pl-2 pb-1">
             <router-link to="/" class="header__link fz-18 fw-500" href="#"
               >Home</router-link
             >
@@ -13,9 +13,14 @@
             <router-link to="#portfolio" class="header__link fz-18 fw-500"
               >Portfolio</router-link
             >
-          </li> -->
+          </li>
           
-        </ul>
+        </ul> -->
+        <button class="header-btn">
+          <a href="#contact">
+            Contact us
+          </a>
+        </button>
       </nav>
       <!-- <button @click="open = true" class="header__burgers">
         <span class="header__burger block"></span>
@@ -108,10 +113,10 @@ export default {
     }
   }
   &__item-btn {
-      border: 1px solid $main_white;
-      @media screen and(max-width: 1720px) {
-        padding: 6px 22px;
-      }
+    border: 1px solid $main_white;
+    @media screen and(max-width: 1720px) {
+      padding: 6px 22px;
+    }
   }
   .router-link-exact-active {
     color: $main_blue;
@@ -132,6 +137,28 @@ export default {
       margin-bottom: 5px;
     }
   }
+
+  &-btn {
+    border-radius: 8px;
+    cursor: pointer;
+
+    font-size: 18px;
+    font-family: Gilroy;
+    font-weight: 500;
+    border: 1px solid;
+    color: rgb(250, 245, 237);
+    border-color: rgb(78, 78, 78);
+    background-color: transparent;
+
+    outline: none;
+
+    padding: 10px 30px;
+
+    & a {
+      color: #fff;
+    }
+  }
+
   .mobile-menu {
     display: none;
     @media screen and(max-width: 700px) {

@@ -1,6 +1,6 @@
 <template>
-  <section class="form flex justify-between align-center container mb-15">
-    <div class="form__left">
+  <section id="contact" class="form flex justify-between align-center container mb-15">
+    <div  class="form__left">
       <h3 class="form__title fw-500 fz-68 w-65 mb-3">
         Are you interested in our services?
       </h3>
