@@ -1,8 +1,7 @@
 <template>
   <section class="hero container mb-10 pt-35 pb-30">
     <h1 class="hero__title m-auto fw-500 text-center">
-      We create <span>powerful</span> and <span>usable</span> digital
-      <span>products</span>
+      We create <span>ethical products</span> and <span>services</span> for humans.
     </h1>
     <div class="circle flex justify-center align-center">
       <div class="circle__icon">

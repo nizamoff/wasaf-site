@@ -25,6 +25,11 @@
     </carousel>
   </section>
   <img class="none" src="../../../../assets/images/icons/maket.jpg" alt="">
+  <img class="none" src="../../../../assets/images/icons/Shopify-1.jpg" alt="">
+  <img class="none" src="../../../../assets/images/icons/Shopify-2.jpg" alt="">
+  <img class="none" src="../../../../assets/images/icons/Shopify-3.jpg" alt="">
+  <img class="none" src="../../../../assets/images/icons/Shopify-4.jpg" alt="">
+  <img class="none" src="../../../../assets/images/icons/Shopify.jpg" alt="">
 </template>
 
 <script>
@@ -45,49 +50,31 @@ export default {
     return {
       slides: [
         {
-          img: "/img/maket.ff4c5927.jpg",
+          img: "/img/Shopify-1.1d801426.jpg",
           alt: "Maket",
           title: "O’zbegim development",
           info: "Web Site",
         },
         {
-          img: "/img/maket.ff4c5927.jpg",
+          img: "/img/Shopify-2.87d481de.jpg",
           alt: "Maket",
           title: "Afsona restaurant",
           info: "Web Site",
         },
         {
-          img: "/img/maket.ff4c5927.jpg",
+          img: "/img/Shopify-3.36c5d4bf.jpg",
           alt: "Maket",
           title: "Personal web page",
           info: "Web Site",
         },
         {
-          img: "/img/maket.ff4c5927.jpg",
+          img: "/img/Shopify-4.a96e8d06.jpg",
           alt: "Maket",
           title: "Oson mobile",
           info: "Web Site",
         },
         {
-          img: "/img/maket.ff4c5927.jpg",
-          alt: "Maket",
-          title: "Salooom",
-          info: "Web Site",
-        },
-        {
-          img: "/img/maket.ff4c5927.jpg",
-          alt: "Maket",
-          title: "Salooom",
-          info: "Web Site",
-        },
-        {
-          img: "/img/maket.ff4c5927.jpg",
-          alt: "Maket",
-          title: "Salooom",
-          info: "Web Site",
-        },
-        {
-          img: "/img/maket.ff4c5927.jpg",
+          img: "/img/Shopify.6eb7d75c.jpg",
           alt: "Maket",
           title: "Salooom",
           info: "Web Site",
@@ -148,6 +135,7 @@ export default {
     bottom: 50px;
     left: 30px;
     transition: 0.3s;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.727);
     @media screen and(max-width: 1720px){
       font-size: 18px;
       left: 20px;
@@ -162,6 +150,7 @@ export default {
     left: 30px;
     bottom: 30px;
     transition: 0.3s;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.727);
     @media screen and(max-width: 1720px){
       font-size: 14px;
       left: 20px;

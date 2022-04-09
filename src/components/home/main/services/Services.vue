@@ -1,7 +1,7 @@
 <template>
   <section id="services" class="services container mb-20">
     <h2 class="services__title text-center fz-40 fw-600 mb-3">
-      We specialize in the development of
+      We specialize in the development of IT products using cutting edge technologies 
     </h2>
     <ul class="services__list flex justify-between flex-wrap">
       <li class="services__item flex align-center br-8 bs p-5 mb-2">
@@ -9,18 +9,16 @@
         <div class="services__texts">
           <h3 class="services__item__title fw-600 fz-32 mb-05">UX/UI Design</h3>
           <p class="services__text fz-16">
-            For your very specific industry, we have highly-tailored IT
-            solutions.
+            UX design is all about identifying and solving user problems; UI design is all about creating intuitive, aesthetically-pleasing, interactive guiding, and responsive experiences for users.
           </p>
         </div>
       </li>
       <li class="services__item flex align-center br-8 bs p-5 mb-2">
         <seo-icon />
         <div class="services__texts">
-          <h3 class="services__item__title fw-600 fz-32 mb-05">SEO Services</h3>
+          <h3 class="services__item__title fw-600 fz-32 mb-05">SAAS development</h3>
           <p class="services__text fz-16">
-            For your very specific industry, we have highly-tailored IT
-            solutions.
+            SaaS, is a way of delivering applications over the internet as a service rather than via a standalone application
           </p>
         </div>
       </li>
@@ -31,8 +29,7 @@
             Mobile Development
           </h3>
           <p class="services__text fz-16">
-            For your very specific industry, we have highly-tailored IT
-            solutions.
+            Mobile application development is the process of creating software applications that run on a mobile device
           </p>
         </div>
       </li>
@@ -43,8 +40,7 @@
             IT Consulting Service
           </h3>
           <p class="services__text fz-16">
-            For your very specific industry, we have highly-tailored IT
-            solutions.
+            IT consulting services are advisory services that help clients assess different technology strategies and, in doing so, align their technology strategies with their business or process strategies. 
           </p>
         </div>
       </li>
@@ -55,8 +51,7 @@
             Web Development
           </h3>
           <p class="services__text fz-16">
-            For your very specific industry, we have highly-tailored IT
-            solutions.
+            Web application development is the complex process of designing, building, testing, and deploying a web-based app.
           </p>
         </div>
       </li>
@@ -64,11 +59,10 @@
         <software-icon />
         <div class="services__texts">
           <h3 class="services__item__title fw-600 fz-32 mb-05">
-            Software Development
+            E-commerce development
           </h3>
           <p class="services__text fz-16">
-            For your very specific industry, we have highly-tailored IT
-            solutions.
+            Ecommerce website development is the process of developing the technical aspects of your e-commerce website. How it functions, accepts payments, behaves in response to a user action, and appears aesthetically.
           </p>
         </div>
       </li>

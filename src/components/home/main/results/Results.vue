@@ -1,7 +1,7 @@
 <template>
   <section class="results container mb-15">
     <h3 class="results__title fw-600 fz-40 text-center mb-3">
-      Results in numbers
+      Industry Experience 
     </h3>
     <ul class="results__list flex justify-between flex-wrap">
       <li class="results__item p-4 bs flex justify-center align-center br-8">
@@ -9,7 +9,7 @@
           <div class="flex justify-center align-center pb-2">
             <span
               class="results__number block fw-600 fz-96 mr-1"
-              data-target="10"
+              data-target="5"
             >
               0
             </span>
@@ -34,7 +34,7 @@
           <div class="flex justify-center align-center pb-2">
             <span
               class="results__number block fw-600 fz-96 mr-1"
-              data-target="60"
+              data-target="50"
             >
               0
             </span>
@@ -45,7 +45,7 @@
           <span
             class="results__subtitle block fw-400 fz-32 text-center w-30"
             >
-            Employees
+            Projects
           </span>
         </div>
         <div class="results__background">
@@ -59,7 +59,7 @@
           <div class="flex justify-center align-center pb-2">
             <span
               class="results__number block fw-600 fz-96 mr-1"
-              data-target="98"
+              data-target="100"
             >
               0
             </span>
@@ -70,7 +70,7 @@
           <span
             class="results__subtitle block fw-400 fz-32 text-center w-40"
             >
-            Hard core developers
+            Employees 
           </span>
         </div>
         <div class="results__background">
