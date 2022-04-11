@@ -7,11 +7,11 @@
             >Wasaf</a
           >
           <p class="footer__slogan w-20">
-            We create powerful and usable digital products
+            We create ethical products and services for humans
           </p>
         </div>
-        <div class="footer__right flex justify-between w-75 mb-10">
-          <nav>
+        <div class="footer__right flex justify-between  mb-10">
+          <!-- <nav>
             <h4 class="fz-32 fw-600 mb-2">Navigate</h4>
             <ul class="footer__menu">
               <li>
@@ -30,8 +30,8 @@
                 <a class="fz-16 mb-1 block color-white" href="">Career</a>
               </li>
             </ul>
-          </nav>
-          <nav>
+          </nav> -->
+          <!-- <nav>
             <h4 class="fz-32 fw-600 mb-2">Social</h4>
             <ul class="footer__socials">
               <li>
@@ -50,22 +50,22 @@
                 <a class="fz-16 mb-1 block color-white" href="">Twitter</a>
               </li>
             </ul>
-          </nav>
+          </nav> -->
           <nav>
             <h4 class="fz-32 fw-600 mb-2">Need help?</h4>
             <ul class="footer__contact">
               <li>
-                <a class="fz-16 mb-1 flex align-center color-white" href=""
+                <a class="fz-16 mb-1 flex align-center color-white" target="blank" href="https://www.google.com/maps/place/Wasaf+Int.+Solutions+-+Digital+Marketing+xizmatlari/@41.2732877,69.2259787,15z/data=!4m2!3m1!1s0x0:0x37958c6cf1ae8106?sa=X&ved=2ahUKEwjfwo2Es4v3AhXaisMKHVqZC1EQ_BJ6BAhMEAU"
                   ><LocationIcon />Tashkent, Uzbekistan</a
                 >
               </li>
               <li>
-                <a class="fz-16 mb-1 flex align-center color-white" href=""
-                  ><AtIcon />wasaf@gmail.com</a
+                <a class="fz-16 mb-1 flex align-center color-white" target="blank" href=""
+                  ><AtIcon />info@wasaf.uz</a
                 >
               </li>
               <li>
-                <a class="fz-16 mb-1 flex align-center color-white" href=""
+                <a class="fz-16 mb-1 flex align-center color-white" href="tel:+998979725756"
                   ><PhoneIcon />+998979725756</a
                 >
               </li>
@@ -76,7 +76,7 @@
       <hr class="hr" />
       <div class="pt-2 pb-2 flex justify-between color-6060">
         <span class="block fz-18">All rights reserved - 2022 Wasaf</span>
-        <span class="block fz-18">Terms and Conditions</span>
+        <!-- <span class="block fz-18">Terms and Conditions</span> -->
         <span class="block fz-18">Website by Wasaf team</span>
       </div>
     </div>

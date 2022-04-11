@@ -4,11 +4,11 @@
     <services/>
     <results/>
     <carousel/>
-    <testimonals-carousel/>
+    <!-- <testimonals-carousel/> -->
     <partners/>
     <forms/>
-    <articles/>
-    <faq/>
+    <!-- <articles/> -->
+    <!-- <faq/> -->
   </main>
 </template>
 
@@ -17,11 +17,11 @@ import Hero from "./hero/Hero.vue";
 import Services from "./services/Services.vue";
 import Results from "./results/Results.vue";
 import Carousel from "./carousel/Carousel.vue"
-import TestimonalsCarousel from "./testimonalsCarousel/TestimonalsCarousel.vue"
+// import TestimonalsCarousel from "./testimonalsCarousel/TestimonalsCarousel.vue"
 import Partners from "./partners/Partners.vue"
 import Forms from "./forms/Forms.vue"
-import Articles from './articles/Articles.vue';
-import Faq from './faq/FAQ.vue'
+// import Articles from './articles/Articles.vue';
+// import Faq from './faq/FAQ.vue'
 
 export default {
   components: {
@@ -29,11 +29,9 @@ export default {
     Services,
     Results,
     Carousel,
-    TestimonalsCarousel,
     Partners,
     Forms,
-    Articles,
-    Faq
+    
   },
 };
 </script>

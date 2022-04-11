@@ -1,5 +1,5 @@
 <template>
-  <section class="results container mb-15">
+  <section id="results" class="results container mb-15">
     <h3 class="results__title fw-600 fz-40 text-center mb-3">
       Industry Experience 
     </h3>

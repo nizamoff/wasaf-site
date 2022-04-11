@@ -1,5 +1,5 @@
 <template>
-  <section class="partners mb-15 container" id="portfolio">
+  <section class="partners mb-15 container" id="partners">
     <h4 class="partners__title text-center fz-40 fw-600 mb-05">Partners</h4>
     <p class="partners__subtitle text-center fz-16 fw-300 lh-24 w-25 m-auto">
       For your very specific industry, we have highly-tailored IT solutions.
@@ -15,48 +15,35 @@
       <li
         class="partners__item w-22 mb-3 br-8 p-5 flex justify-center align-center"
       >
-        <partner-mohir-dev />
+        <partner-salam-uzbek />
       </li>
       <li
         class="partners__item w-22 mb-3 br-8 p-5 flex justify-center align-center"
       >
-        <partner-mohir-dev />
+        <partner-cambridge />
       </li>
       <li
         class="partners__item w-22 mb-3 br-8 p-5 flex justify-center align-center"
       >
-        <partner-mohir-dev />
+        <partner-megford />
       </li>
-      <li
-        class="partners__item w-22 mb-3 br-8 p-5 flex justify-center align-center"
-      >
-        <partner-mohir-dev />
-      </li>
-      <li
-        class="partners__item w-22 mb-3 br-8 p-5 flex justify-center align-center"
-      >
-        <partner-mohir-dev />
-      </li>
-      <li
-        class="partners__item w-22 mb-3 br-8 p-5 flex justify-center align-center"
-      >
-        <partner-mohir-dev />
-      </li>
-      <li
-        class="partners__item w-22 mb-3 br-8 p-5 flex justify-center align-center"
-      >
-        <partner-mohir-dev />
-      </li>
+      
     </ul>
   </section>
 </template>
 b
 <script>
 import PartnerMohirDev from "../../../svgs/PartnerMohirDev.vue";
+import PartnerCambridge from "../../../svgs/PartnerCambridge.vue";
+import PartnerSalamUzbek from "../../../svgs/PartnerSalamUzbek.vue";
+import PartnerMegford from "../../../svgs/PartnerMegford.vue";
 export default {
   components: {
     PartnerMohirDev,
-  },
+    PartnerCambridge,
+    PartnerSalamUzbek,
+    PartnerMegford
+},
 };
 </script>
 

@@ -2,20 +2,29 @@
   <header id="header" class="header pt-3 pb-3">
     <div class="header__inner container flex justify-between align-center">
       <a href="/" class="header__left fw-700 fz-32">Wasaf</a>
-      <nav class="header__right">
-        <!-- <ul class="header__list flex align-center">
+      <nav class="header__right flex">
+        <ul class="header__list flex align-center">
           <li class="header__item pr-2 pt-1 pl-2 pb-1">
-            <router-link to="/" class="header__link fz-18 fw-500" href="#"
-              >Home</router-link
-            >
+            <a href="#services" class="header__link fz-18 fw-500"
+              >Services
+            </a>
           </li>
           <li class="header__item pr-2 pl-2 pt-1 pb-1">
-            <router-link to="#portfolio" class="header__link fz-18 fw-500"
-              >Portfolio</router-link
-            >
+            <a href="#results" class="header__link fz-18 fw-500"
+              >Experience
+            </a>
           </li>
-          
-        </ul> -->
+          <li class="header__item pr-2 pl-2 pt-1 pb-1">
+            <a href="#portfolio" class="header__link fz-18 fw-500"
+              >Portfolio
+            </a>
+          </li>
+          <li class="header__item pr-2 pl-2 pt-1 pb-1">
+            <a href="#partners" class="header__link fz-18 fw-500"
+              >Partners
+            </a>
+          </li>
+        </ul>
         <button class="header-btn">
           <a href="#contact">
             Contact us
